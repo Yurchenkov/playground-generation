@@ -15,9 +15,8 @@ public class PlayerController : MonoBehaviour {
     }
 
     void Move() {
-        if (Input.GetMouseButtonDown(0)) {
+        if (Input.GetMouseButtonDown(0))
             UpdatePosition();
-        }
     }
 
     void UpdatePosition() {
